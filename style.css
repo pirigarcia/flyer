@@ -26,7 +26,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0); /* Fondo semitransparente */
 }
 
 .nav ul {
@@ -49,6 +49,15 @@ body {
 
 .nav a:hover {
     color: var(--accent-color);
+}
+
+.nav-item {
+    margin: 0 15px;
+    font-size: 1.5rem;
+}
+
+.nav-item a {
+    font-size: 1.5rem;
 }
 
 header {
